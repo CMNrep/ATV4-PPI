@@ -1,0 +1,24 @@
+Vendas de ingressos online
+
+Desenvolva um site de vendas online de ingressos para eventos.
+
+O objetivo é permitir que os usuários visualizem os eventos disponíveis, sendo possível clicar em um evento e visualizar mais detalhes sobre o evento selecionado.
+
+Seu site só poderá ser acessado por meio de uma aplicação NodeJS, a qual restringirá o acesso para usuários autenticados.
+
+Requisitos:
+1. Página inicial: exiba uma lista dos eventos disponíveis, incluindo informações como nome do evento, data, local e preço do ingresso. Cada evento deve ter um botão para o usuário visualizar mais detalhes sobre esse evento disponível em outra página;
+2. Página de detalhes do evento: exiba informações completas sobre o evento, incluindo descrição, horário, local, preço, quantidade de ingressos disponíveis, etc. Nessa página, o usuário deve ser capaz de selecionar a quantidade de ingressos desejada e visualizar o valor total (utilize javascript no lado do cliente para implementar essa funcionalidade). Atenção, o arquivo javascript deverá ser disponibilizado pela aplicação servidora.
+3. O ACESSO AOS DETALHES DE UM EVENTO SERÃO PERMITIDOS SOMENTE PARA USUÁRIOS AUTENTICADOS (obs: não é necessário autenticar vários usuários, faça como demonstrado na aula ao vivo, autenticando apenas um usuário fixo);
+4. Estilização e responsividade: utilize CSS para estilizar o site e torna-lo atraente e responsivo em diferentes tamanhos de tela. Atenção, o arquivo css deve ser disponibilizado pela aplicação servidora. (disponibilize o css de forma pública)
+5. Armazene os códigos fontes do projeto no Github;
+6. Será avaliado somente a funcionalidade da aplicação;
+
+Dicas:
+- Utilize HTML para criar a estrutura do site, dividindo as páginas em seções e elementos adequados.
+- Utilize CSS para estilizar os elementos e tornar o site visualmente agradável.
+- Utilize JavaScript para manipular os elementos da página.
+
+Orientações sobre a entrega:
+-Envie o link do projeto (público) no github;
+-Grave um vídeo com duração máxima de cinco minutos apresentando seu projeto (código fonte e uso do site).

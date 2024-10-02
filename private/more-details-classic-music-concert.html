@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Evento - Concerto de Música Clássica</title>
+    <link rel="stylesheet" href="./css/private-style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" class="you-are-here">Detalhes</a></li>
+                <li><a href="http://localhost:3000/Cadastrar.html" class="">Cadastrar</a></li>
+                <li><a href="http://localhost:3000/logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Concerto de Música Clássica</h1>
+        <p><strong>Data:</strong>20 de Outubro, 2024</p>
+        <p><strong>Horário:</strong> 20:00</p>
+        <p><strong>Local:</strong> Teatro Municipal Matarazzo</p>
+        <p><strong>Preço:</strong>R$50,00 por ingresso</p>
+        <p><strong>Ingressos Disponíveis:</strong> 100</p>
+        <p><strong>Descrição:</strong> Venha apreciar uma noite de música clássica com as melhores composições de Mozart, Beethoven e Bach, executadas pela Orquestra Préludio da escola Jupyra.</p>
+
+        <label for="quantity">Quantidade de Ingressos:</label>
+        <input type="number" id="quantity" min="1" max="100" value="1" onchange="calcTotal()">
+
+        <p class="total-price">Total: R$ <span id="total">50.00</span></p>
+
+        <a href="#" class="purchase-button">Comprar Ingressos</a>
+        <a href="./home-page.html" class="back-button">Voltar</a>
+    </main>
+    <script src="./functions/price-calculator.js"></script>
+</body>
+</html>

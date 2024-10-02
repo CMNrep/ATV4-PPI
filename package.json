@@ -1,0 +1,30 @@
+{
+  "name": "ativ4ppi",
+  "version": "1.0.0",
+  "description": "primeira atividade da aula de PPI",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CMNrep/atv-1-PPI.git"
+  },
+  "keywords": [
+    "WEB",
+    "JAVASCRIPT",
+    "SERVER"
+  ],
+  "author": "Cristian M. Negrizolli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CMNrep/atv-1-PPI/issues"
+  },
+  "homepage": "https://github.com/CMNrep/atv-1-PPI#readme",
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-session": "^1.18.0"
+  }
+}
