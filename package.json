@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CMNrep/atv-1-PPI.git"
+    "url": "git+https://github.com/CMNrep/ATV4-PPI.git"
   },
   "keywords": [
     "WEB",
@@ -20,9 +20,9 @@
   "author": "Cristian M. Negrizolli",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CMNrep/atv-1-PPI/issues"
+    "url": "https://github.com/CMNrep/ATV4-PPI/issues"
   },
-  "homepage": "https://github.com/CMNrep/atv-1-PPI#readme",
+  "homepage": "https://github.com/CMNrep/ATV4-PPI#readme",
   "dependencies": {
     "express": "^4.21.0",
     "express-session": "^1.18.0"
